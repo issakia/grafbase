@@ -34,10 +34,11 @@ const Navbar = async () => {
       <div className='flexCenter gap-4'>
         {session?.user ? (
           <>
+          {/* UserPhoto */}
             <ProfileMenu session={session} />
 
             <Link href="/create-project">
-              <Button title='Share work' />
+              <Button title='Sign in' />
             </Link>
           </>
         ) : (
