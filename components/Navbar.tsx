@@ -16,7 +16,7 @@ const Navbar = async () => {
       <div className='flex-1 flexStart gap-10'>
         <Link href='/'>
           <Image
-            src='/logo.svg'
+            src='/logu.svg'
             width={116}
             height={43}
             alt='logo'
@@ -38,7 +38,7 @@ const Navbar = async () => {
             <ProfileMenu session={session} />
 
             <Link href="/create-project">
-              <Button title='Sign in' />
+              <Button title='Share Data' />
             </Link>
           </>
         ) : (
